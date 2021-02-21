@@ -1,3 +1,4 @@
+# https://github.com/bruno-gs/fritz_recognizer_image
 # USAGE
 # python detect_mask_image.py --image images/name_of_image.jpeg
 
