@@ -19,6 +19,7 @@ Our results can be seen in the video time:
 - 1:22:50
 - 2:01:25
 
+Or in the "log" folder, there is the result of the image already contained in the "images" folder
 
 ## :warning: TechStack/framework used
 
@@ -46,26 +47,19 @@ $ pip3 install -r requirements.txt
 
 ## :bulb: Working
 
-1. Open terminal. Go into the cloned project directory and type the following command:
-```
-$ python3 train_mask_detector.py --dataset dataset
-```
+1. Place the image you wish to analyze in the "images" folder.
 
-2. To detect face masks in an image type the following command: 
+2. Open terminal. To detect face masks or age and gender in an image type the following command:
 ```
-$ python3 detect_mask_image.py --image images/pic1.jpeg
+$ python3 detect_mask_image.py --image images/name_of_image.jpeg
 ```
+3. The result will appear on your screen, but this log will also be in the "log" folder.
 
-3. To detect face masks in real-time video streams type the following command:
-```
-$ python3 detect_mask_video.py 
-```
+4. If you have any problems and the program doesn't run, it must be because of a missing package, post the error on the Internet. If nothing works, create a issue.
+
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
-:email: chandrikadeb7@gmail.com
-
-## :handshake: Contribution
-Feel free to **file a new issue** with a respective title and description on the the [Face-Mask-Detection](https://github.com/chandrikadeb7/Face-Mask-Detection/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
+:email: bgottsfritz@gmail.com
 
 ## :heart: Owner
 Made  by [Bruno Gottsfritz](https://github.com/bruno-gs)
