@@ -59,7 +59,7 @@ $ python3 detect_mask_image.py --image images/name_of_image.jpeg
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
-:email: bgottsfritz@gmail.com
+:email: brugottsfritz@gmail.com
 
 ## :heart: Owner
 Made  by [Bruno Gottsfritz](https://github.com/bruno-gs)
