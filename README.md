@@ -51,7 +51,7 @@ $ pip3 install -r requirements.txt
 
 2. Open terminal. To detect face masks or age and gender in an image type the following command:
 ```
-$ python3 detect_mask_image.py --image images/name_of_image.jpeg
+$ python3 mask_age_gender.py --image images/name_of_image.jpeg
 ```
 3. The result will appear on your screen, but this log will also be in the "log" folder.
 
