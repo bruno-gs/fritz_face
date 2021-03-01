@@ -1,6 +1,6 @@
 # https://github.com/bruno-gs/fritz_recognizer_image
 # USAGE
-# python mask_age_gender.py --image images/name_of_image.jpeg
+# python3 mask_age_gender.py --image images/name_of_image.jpeg
 
 # import the necessary packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
