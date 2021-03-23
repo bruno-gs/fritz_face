@@ -65,4 +65,4 @@ Feel free to mail me for any doubts/query
 Made  by [Bruno Gottsfritz](https://github.com/bruno-gs)
 
 ## :eyes: License
-MIT © [Bruno Gottsfritz](https://github.com/bruno-gs/fritz_recognizer_image/blob/main/LICENSE)
+MIT © [License](https://github.com/bruno-gs/fritz_recognizer_image/blob/main/LICENSE)
