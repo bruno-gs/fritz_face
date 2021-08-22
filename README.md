@@ -59,7 +59,7 @@ $ python3 mask_age_gender.py --image images/name_of_image.jpeg
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
-:email: brugottsfritz@gmail.com
+:email: bgottsfritz@gmail.com
 
 ## :heart: Owner
 Made  by [Bruno Gottsfritz](https://github.com/bruno-gs)
