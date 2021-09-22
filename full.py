@@ -1,5 +1,5 @@
 # AUTOR: FRITZ
-# https://github.com/bruno-gs/fritz_recognizer_image
+# https://github.com/bruno-gs/fritz_face
 
 ###################################################
 # COMO USAR

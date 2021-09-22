@@ -1,4 +1,4 @@
-# https://github.com/bruno-gs/fritz_recognizer_image
+# https://github.com/bruno-gs/fritz_face
 # USAGE
 # python3 mask_age_gender.py --image images/name_of_image.jpeg
 

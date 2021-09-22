@@ -1,4 +1,4 @@
-<h1 align="center">Fritz Recognizer - Images</h1>
+<h1 align="center">Fritz Face</h1>
 
 ## :star: Motivation
 
@@ -63,6 +63,3 @@ Feel free to mail me for any doubts/query
 
 ## :heart: Owner
 Made  by [Bruno Gottsfritz](https://github.com/bruno-gs)
-
-## :eyes: License
-MIT © [License](https://github.com/bruno-gs/fritz_recognizer_image/blob/main/LICENSE)
