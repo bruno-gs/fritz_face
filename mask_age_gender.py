@@ -145,7 +145,7 @@ def mask_image():
 				cv2.rectangle(image, (x1, y1 - size1[1]), (x1 + size1[0], y1), color, cv2.FILLED)
 				cv2.putText(image, label1, point1, font, 0.8, (255, 255, 255), 1, lineType=cv2.LINE_AA)
 					
-	# Print the total of people recognize
+	# Print o total de pessoas reconhecidas
 	# cv2.putText(image, "{} pessoa(s)".format(num),(10,50), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255,0,0),2,cv2.LINE_AA) 
 	
 	# show the output image

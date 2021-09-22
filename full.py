@@ -32,6 +32,38 @@ def mask_age_gender():
 	arg.add_argument("-i", "--image", required=True,
 		help="path to input image")
 	args = vars(arg.parse_args())
+    
+    # Carrega o modelo de detecção facial
+	print("[INFO] loading face detector model...")
+	prototxtPath = os.path.sep.join(["face_detector","deploy.prototxt"])
+	weightsPath = os.path.sep.join(["face_detector","res10_300x300_ssd_iter_140000.caffemodel"])
+	net = cv2.dnn.readNet(prototxtPath, weightsPath)
+
+	# Carrega o modelo de detecção de máscara
+	print("[INFO] loading face mask detector model...")
+	model = load_model("mask_detector.model")
+
+	# Carrega a imagem 
+	image = cv2.imread(args["image"])
+	# Obtem as dimensões esaciais da imagem
+    (h, w) = image.shape[:2]
+
+	# Facilitar o pré-processamento de imagem para classificação de deep learning
+	blob = cv2.dnn.blobFromImage(image, 1.0, (700,700), (104.0, 177.0, 123.0))
+	
+	# Passa o blob pela rede e pega as detecções de rosto
+	print("[INFO] computing face detections...")
+	net.setInput(blob)
+	detections = net.forward()
+
+    for i in range(0, detections.shape[2]):
+		confidence = detections[0, 0, i, 2]
+		# probabilidade para as detecções
+		if confidence > 0.5:
+            
+
+
+
 
 
 # chamando a função principal e iniciando o código
