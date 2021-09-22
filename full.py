@@ -25,8 +25,6 @@ from PIL import Image
 ##############################################################################
 
 
-
-
 def mask_age_gender():
 
     # construção dos argumentos de inicialização
