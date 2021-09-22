@@ -1,4 +1,0 @@
-The links below are to the original works
-
-https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/detect_mask_image.py -- https://github.com/chandrikadeb7
-https://github.com/yu4u/age-gender-estimation -- https://github.com/yu4u
