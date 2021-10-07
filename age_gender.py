@@ -1,6 +1,6 @@
 # https://github.com/bruno-gs/fritz_face
 # USAGE
-# python3 only_age_gender.py --image images/name_of_image.jpeg
+# python3 age_gender.py --image images/name_of_image.jpeg
 
 # import the necessary packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
