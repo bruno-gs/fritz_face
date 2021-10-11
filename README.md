@@ -42,7 +42,12 @@ $ git clone https://github.com/bruno-gs/fritz_recognizer_image
 
 2. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 ```
-$ pip3 install -r requirements.txt
+$ pip3 install -r r1.txt
+```
+
+3. You need to run this another requirement because the functions work with specific packages
+```
+$ pip3 install -r r2.txt
 ```
 
 ## :bulb: Working
