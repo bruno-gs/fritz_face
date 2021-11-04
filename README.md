@@ -8,8 +8,6 @@ One of the tasks to be developed by the teams was the identification of People i
 
 The objective was to identify if the people in the image were wearing a mask or not. If they were without a mask, to extract the gender and age of each one.
 
-Representing the RoboFEI@HOME team, I used the works referenced in the file "link.txt" and combined them to achieve the objective.
- 
 ## :hourglass: CBR2020 Virtual - @Home - Exam: People Recognition
 :movie_camera: [YouTube Demo Link](https://www.youtube.com/watch?v=EU1RUpT1pf0&t=2920s)
 
